@@ -1,37 +1,86 @@
-Name: Mohammad Abdullah Khalid
-Class: 26i-3123
-Section: SE-C
+/* Name: Mohammad Abdullah Khalid | Roll No: 26i-3123 | Section: SE-C */
 
 body {
     background-color: #fdf6ec;
     color: #3e2723;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+header {
+    background-color: #3e2723;
+    color: #fdf6ec;
+    padding: 18px 10px 12px 10px;
+}
+
+header h1 {
     font-size: 32px;
+    margin: 0 0 12px 0;
+}
+
+nav {
+    margin-top: 8px;
+}
+
+nav a {
+    color: #fdf6ec;
+    text-decoration: none;
+    background-color: #790000;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover, nav a.active {
+    background-color: #d84315;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+h2 {
+    color: #790000;
+    margin-top: 25px;
 }
 
 img {
-    width: 250px;
-    margin: 15px;
+    width: 280px;
+    margin: 15px auto;
+    border: 3px solid #790000;
+    border-radius: 8px;
+    display: block;
 }
 
 table {
-    width: 50%;
+    width: 65%;
     margin: 20px auto;
     border-collapse: collapse;
+    background-color: #fffaf3;
 }
 
-th, td {
+th {
+    background-color: #790000;
+    color: #fdf6ec;
+    border: 1px solid #790000;
+    padding: 10px;
+}
+
+td {
     border: 1px solid #790000;
     padding: 8px;
 }
 
 .btn-box {
-    width: 50%;
-    margin: auto;
+    width: 65%;
+    margin: 15px auto;
     text-align: right;
 }
 
@@ -41,4 +90,68 @@ button {
     padding: 8px 18px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #790000;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-card {
+    background-color: #fffaf3;
+    border: 2px solid #790000;
+    border-radius: 8px;
+    padding: 12px;
+    width: 260px;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 0 10px 0;
+    border: none;
+}
+
+.contact-box {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fffaf3;
+    border: 2px solid #790000;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-box label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-box input, .contact-box textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #790000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #3e2723;
+    color: #fdf6ec;
+    padding: 14px;
+    margin-top: 40px;
+    font-size: 14px;
 }

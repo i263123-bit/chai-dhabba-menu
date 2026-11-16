@@ -1,56 +1,73 @@
-NAME: Mohammad Abdullah Khalid
-Class: SE-C
-Roll no: 26i-3123
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cafe or Dhabba menu</title>
+    <meta charset="UTF-8">
+    <title>Chai Dabba &amp; Rest - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Chai Dabba &amp; Rest</h1>
+    <header>
+        <h1>Chai Dabba &amp; Rest</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <img src="images.jpg" alt="CafeImage.jpg" style="width:250px ">  
+    <main>
+        <h2>Welcome to Authentic Desi Chai &amp; Nashta</h2>
+        <p>Freshly brewed doodh patti, aromatic masala chai, and hot crispy parathas served daily in Islamabad.</p>
 
-    <table>
-        <tr>
- <th>Item</th>
-            <th>Category</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Doodh Patti</td>
-            <td>Tea</td>
-            <td>120</td>
-        </tr>
-        <tr>
-            <td>Masala Chai</td>
-            <td>Tea</td>
-            <td>140</td>
-        </tr>
-        <tr>
-            <td>Aloo Paratha</td>
-            <td>Food</td>
-            <td>150</td>
-        </tr>
-    </table>
+        <img src="CafeImage.jpg" alt="Chai Dabba &amp; Rest Cafe">
 
-    <button onclick="sayorder()">Say Order</button>
+        <h2>Today's House Specials</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th>Price (PKR)</th>
+            </tr>
+            <tr>
+                <td>Doodh Patti</td>
+                <td>Tea</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Masala Chai</td>
+                <td>Tea</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td>Aloo Paratha</td>
+                <td>Food</td>
+                <td>150</td>
+            </tr>
+        </table>
 
-<script>
-  function sayorder() {
-    console.log("Say order button was clicked");
-    window.alert("order! Welcome to my page.");
-  }
-</script>
+        <button onclick="sayorder()">Say Order</button>
 
+        <div class="btn-box">
+            <button onclick="quickOrder()">Order</button>
+        </div>
+    </main>
 
+    <footer>
+        <p>Chai Dabba &amp; Rest | Open Daily: 7:00 AM &ndash; 12:00 AM | F-7 Markaz, Islamabad</p>
+    </footer>
 
-    <div class="btn-box">
-        <button>Order</button>
-    </div>
+    <script>
+        function sayorder() {
+            console.log("Say order button was clicked");
+            window.alert("Order! Welcome to Chai Dabba & Rest.");
+        }
+        function quickOrder() {
+            console.log("Quick order button was clicked");
+            window.alert("Your order request has been noted! Visit our Menu page for more items.");
+        }
+    </script>
 
 </body>
 </html>

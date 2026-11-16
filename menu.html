@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chai Dabba &amp; Rest - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chai Dabba &amp; Rest</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Signature Chai &amp; Beverages</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (PKR)</th>
+            </tr>
+            <tr>
+                <td>Special Doodh Patti</td>
+                <td>Slow-simmered milk tea with cardamom</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Karak Masala Chai</td>
+                <td>Strong tea infused with ginger, cloves, and cinnamon</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td>Kashmiri Pink Chai</td>
+                <td>Traditional pink tea topped with crushed pistachios</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Elaichi Qahwa</td>
+                <td>Refreshing green tea with cardamom and lemon</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <h2>Parathas &amp; Dhaba Food</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price (PKR)</th>
+            </tr>
+            <tr>
+                <td>Aloo Paratha</td>
+                <td>Crispy whole-wheat paratha stuffed with spiced potatoes</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Chicken Cheese Paratha</td>
+                <td>Stuffed with seasoned minced chicken and melted cheese</td>
+                <td>280</td>
+            </tr>
+            <tr>
+                <td>Anda Omelette &amp; Paratha</td>
+                <td>Desi masala omelette served with a flaky paratha</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Bun Kebab</td>
+                <td>Classic street-style shami patty burger with green chutney</td>
+                <td>190</td>
+            </tr>
+        </table>
+
+        <div class="btn-box">
+            <button onclick="placeMenuOrder()">Place Table Order</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Chai Dabba &amp; Rest | Open Daily: 7:00 AM &ndash; 12:00 AM | F-7 Markaz, Islamabad</p>
+    </footer>
+
+    <script>
+        function placeMenuOrder() {
+            console.log("Place Table Order clicked on Menu page");
+            window.alert("Thank you! Please tell your table number to our server to confirm your menu selection.");
+        }
+    </script>
+
+</body>
+</html>
