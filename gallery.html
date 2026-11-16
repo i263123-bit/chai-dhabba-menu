@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chai Dabba &amp; Rest - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chai Dabba &amp; Rest</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Moments at Chai Dabba &amp; Rest</h2>
+        <p>A glimpse into our cozy evening seating, freshly poured chai, and hot off-the-tawa parathas.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="CafeImage.jpg" alt="Chai Dabba Main Seating">
+                <h3>Evening Dhaba Vibe</h3>
+                <p>Warm outdoor seating perfect for late-night chai sessions with friends.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="CafeImage.jpg" alt="Karak Doodh Patti">
+                <h3>Freshly Brewed Doodh Patti</h3>
+                <p>Simmered to perfection in traditional brass pots for rich flavor.</p>
+            </div>
+            <div class="gallery-card">
+                <img src="CafeImage.jpg" alt="Crispy Aloo Paratha">
+                <h3>Tawa Crispy Parathas</h3>
+                <p>Served straight off the griddle with fresh mint raita and achar.</p>
+            </div>
+        </div>
+
+        <br>
+        <button onclick="galleryHighlight()">View Today's Featured Spot</button>
+    </main>
+
+    <footer>
+        <p>Chai Dabba &amp; Rest | Open Daily: 7:00 AM &ndash; 12:00 AM | F-7 Markaz, Islamabad</p>
+    </footer>
+
+    <script>
+        function galleryHighlight() {
+            console.log("Gallery featured spot button clicked");
+            window.alert("Rooftop Dhaba Corner is open tonight with live acoustic music from 8 PM!");
+        }
+    </script>
+
+</body>
+</html>
