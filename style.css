@@ -1,0 +1,44 @@
+Name: Mohammad Abdullah Khalid
+Class: 26i-3123
+Section: SE-C
+
+body {
+    background-color: #fdf6ec;
+    color: #3e2723;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    width: 250px;
+    margin: 15px;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #790000;
+    padding: 8px;
+}
+
+.btn-box {
+    width: 50%;
+    margin: auto;
+    text-align: right;
+}
+
+button {
+    background-color: #d84315;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+}
