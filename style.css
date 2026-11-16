@@ -85,13 +85,14 @@ td {
 }
 
 button {
-   background-color: #b71c1c;
+    background-color: #b71c1c;
     color: white;
     padding: 8px 18px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 14px;
+    font-weight: bold;
     margin: 5px;
 }
 
