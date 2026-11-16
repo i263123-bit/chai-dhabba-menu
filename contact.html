@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chai Dabba &amp; Rest - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chai Dabba &amp; Rest</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Visit or Contact Us</h2>
+        <p><strong>Location:</strong> Street 13, F-7 Markaz, Islamabad | <strong>Phone:</strong> 051-2654321</p>
+
+        <div class="contact-box">
+            <label for="cname">Your Name:</label>
+            <input type="text" id="cname" placeholder="Enter your name">
+
+            <label for="cphone">Phone Number:</label>
+            <input type="text" id="cphone" placeholder="03XX-XXXXXXX">
+
+            <label for="cmsg">Table Reservation or Message:</label>
+            <textarea id="cmsg" rows="4" placeholder="Write your message or booking time..."></textarea>
+
+            <br><br>
+            <button type="button" onclick="sendContact()">Send Message</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Chai Dabba &amp; Rest | Open Daily: 7:00 AM &ndash; 12:00 AM | F-7 Markaz, Islamabad</p>
+    </footer>
+
+    <script>
+        function sendContact() {
+            var name = document.getElementById("cname").value || "Guest";
+            console.log("Contact form submitted by: " + name);
+            window.alert("Shukriya, " + name + "! Your message has been received by Chai Dabba & Rest.");
+        }
+    </script>
+
+</body>
+</html>
